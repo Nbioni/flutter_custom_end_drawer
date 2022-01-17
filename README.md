@@ -1,16 +1,13 @@
-# custom_end_drawer
+I'm developing a dashboard that clicking profile on the header will open an endDrawer that applies a background shadow only to the application body, I did this by calling the showBodyScrim event that allows me to pass whether we should present the background shading and its opacity.
 
-A new Flutter project.
+I wish I could choose the background color of my bodyScrim. That is, I would like to be able to somehow set the value of "_bodyScrimColor".
 
-## Getting Started
+My questions:
 
-This project is a starting point for a Flutter application.
+Is there a better way to open an endDrawer without applying shading to my AppBar and being able to pick the drop shadow color?
+If not, how could I choose the color of my bodyScrimColor?
 
-A few resources to get you started if this is your first Flutter project:
+![Alt Text](https://github.com/Nbioni/flutter_custom_end_drawer/blob/main/assets/gif/my_dashboard_example.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### flutter doctor -v
+![image](https://user-images.githubusercontent.com/43020119/149787633-10d1209d-2fac-4f54-b6e0-e97f8bb68e92.png)
